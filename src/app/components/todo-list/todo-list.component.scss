@@ -1,0 +1,43 @@
+
+.table-container{
+    padding: 36px;
+    table {
+        width: 100%;
+    }
+
+    .filter-button{
+        margin-bottom: 12px;
+    }
+
+    .filter-container{
+        background-color: #424242;
+        border-radius: 12px;
+        width: fit-content;
+        padding: 12px;
+        margin-bottom: 12px;
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .container-footer{
+        margin-top: 12px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.mat-column-actions{
+    width: 52px;
+    text-align: center;
+
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+}
